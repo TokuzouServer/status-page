@@ -27,62 +27,63 @@ status-website:
       href: https://tokuzouserver.net/
 
 i18n:
-footer: © 2022 tokuzouserver Network
-activeIncidents: アクティブなインシデント
-allSystemsOperational: すべてのシステムが稼働しています
-incidentReport: "インシデント #$NUMBER report →"
-activeIncidentSummary: Opened at $DATE with $POSTS posts
-incidentTitle: Incident $NUMBER Details
-incidentDetails: インシデントの詳細
-incidentFixed: 解決済み
-incidentOngoing: 進行中
-incidentOpenedAt: Opened at
-incidentClosedAt: Closed at
-incidentSubscribe: アップデートを購読する
-incidentViewOnGitHub: Githubで見る
-incidentCommentSummary: Posted at $DATE by $AUTHOR
-incidentBack: ← すべてのインシデントに戻る
-pastIncidents: 過去のインシデント
-pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
-liveStatus: 現在のステータス
-overallUptime: "全体的な稼働時間: $UPTIME"
-overallUptimeTitle: 全体的な稼働時間
-averageResponseTime: "平均応答時間: $TIMEms"
-averageResponseTimeTitle: 平均応答時間
-sevelDayResponseTime: 7日間の応答時間
-responseTimeMs: 応答時間 (ms)
-up: 稼働中
-down: Down
-degraded: Degraded
-ms: ms
-loading: 読み込み中
-navGitHub: GitHub
-rateLimitExceededTitle: レート制限を超えました
-rateLimitExceededIntro: 1時間に実行できるリクエストの数を超えたため、このWebサイトに再度アクセスする前に待機する必要があります。または、GitHubパーソナルアクセストークンを追加して、このWebサイトを引き続き使用することもできます。
-rateLimitExceededWhatDoesErrorMean: このエラーはどういう意味ですか？
-rateLimitExceededErrorMeaning: このWebサイトは、GitHub APIを使用して、Webサイトのステータスに関するリアルタイムデータにアクセスします。デフォルトでは、GitHubは各IPアドレスに1時間あたり60リクエストを許可します。これは、ユーザーが消費したものです。
-rateLimitExceededErrorHowCanFix: どうすれば修正できますか？
-rateLimitExceededErrorFix: さらに1時間待つと、IPアドレスの制限が回復します。または、GitHubパーソナルアクセストークンを追加して、1時間あたり5,000リクエストを追加することもできます。
-rateLimitExceededGeneratePAT: パーソナルアクセストークンを生成する方法を学ぶ
-rateLimitExceededHasSet: 個人用アクセストークンセットがあります。
-rateLimitExceededRemoveToken: トークンを削除する
-rateLimitExceededGitHubPAT: GitHubパーソナルアクセストークン
-rateLimitExceededCopyPastePAT: トークンをコピーして貼り付けます
-rateLimitExceededSaveToken: トークンを保存
-errorTitle: エラーが発生しました
-errorIntro: 最新のステータスの詳細を取得しようとしてエラーが発生しました。
-errorText: しばらくしてからもう一度お試しください。
-errorHome: ホームページに移動
-pastScheduledMaintenance: 過去の定期メンテナンス
-scheduledMaintenance: 定期メンテナンス
-scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
-scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
-startedAt: Started at
-startsAt: Starts at
-duration: 期間
-durationMin: $DURATION minutes
-incidentCompleted: 完了
-incidentScheduled: 予定
+  footer: © 2022 tokuzouserver Network
+  activeIncidents: アクティブなインシデント
+  allSystemsOperational: すべてのシステムが稼働しています
+  incidentReport: "インシデント #$NUMBER report →"
+  activeIncidentSummary: Opened at $DATE with $POSTS posts
+  incidentTitle: Incident $NUMBER Details
+  incidentDetails: インシデントの詳細
+  incidentFixed: 解決済み
+  incidentOngoing: 進行中
+  incidentOpenedAt: Opened at
+  incidentClosedAt: Closed at
+  incidentSubscribe: アップデートを購読する
+  incidentViewOnGitHub: Githubで見る
+  incidentCommentSummary: Posted at $DATE by $AUTHOR
+  incidentBack: ← すべてのインシデントに戻る
+  pastIncidents: 過去のインシデント
+  pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
+  liveStatus: 現在のステータス
+  overallUptime: "全体的な稼働時間: $UPTIME"
+  overallUptimeTitle: 全体的な稼働時間
+  averageResponseTime: "平均応答時間: $TIMEms"
+  averageResponseTimeTitle: 平均応答時間
+  sevelDayResponseTime: 7日間の応答時間
+  responseTimeMs: 応答時間 (ms)
+  up: 稼働中
+  down: Down
+  degraded: Degraded
+  ms: ms
+  loading: 読み込み中
+  navGitHub: GitHub
+  rateLimitExceededTitle: レート制限を超えました
+  rateLimitExceededIntro: 1時間に実行できるリクエストの数を超えたため、このWebサイトに再度アクセスする前に待機する必要があります。または、GitHubパーソナルアクセストークンを追加して、このWebサイトを引き続き使用することもできます。
+  rateLimitExceededWhatDoesErrorMean: このエラーはどういう意味ですか？
+  rateLimitExceededErrorMeaning: このWebサイトは、GitHub APIを使用して、Webサイトのステータスに関するリアルタイムデータにアクセスします。デフォルトでは、GitHubは各IPアドレスに1時間あたり60リクエストを許可します。これは、ユーザーが消費したものです。
+  rateLimitExceededErrorHowCanFix: どうすれば修正できますか？
+  rateLimitExceededErrorFix: さらに1時間待つと、IPアドレスの制限が回復します。または、GitHubパーソナルアクセストークンを追加して、1時間あたり5,000リクエストを追加することもできます。
+  rateLimitExceededGeneratePAT: パーソナルアクセストークンを生成する方法を学ぶ
+  rateLimitExceededHasSet: 個人用アクセストークンセットがあります。
+  rateLimitExceededRemoveToken: トークンを削除する
+  rateLimitExceededGitHubPAT: GitHubパーソナルアクセストークン
+  rateLimitExceededCopyPastePAT: トークンをコピーして貼り付けます
+  rateLimitExceededSaveToken: トークンを保存
+  errorTitle: エラーが発生しました
+  errorIntro: 最新のステータスの詳細を取得しようとしてエラーが発生しました。
+  errorText: しばらくしてからもう一度お試しください。
+  errorHome: ホームページに移動
+  pastScheduledMaintenance: 過去の定期メンテナンス
+  scheduledMaintenance: 定期メンテナンス
+  scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
+  scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
+  startedAt: Started at
+  startsAt: Starts at
+  duration: 期間
+  durationMin: $DURATION minutes
+  incidentCompleted: 完了
+  incidentScheduled: 予定
+  
   
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
