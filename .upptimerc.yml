@@ -10,9 +10,9 @@ sites:
     url: doukoukai.tokuzouserver.net
     port: 25565
   - name: ochinchinippaiboy.com
-    url: http://ochinchinippaiboy.com/
+    url: https://ochinchinippaiboy.com/
   - name: DuckDuckSu
-    url: http://duckducksu.co/
+    url: https://duckducksu.co/
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
