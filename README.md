@@ -1,4 +1,4 @@
-# [📈 Live Status](https://status.tokuzouserver.net): <!--live status--> **すべてのシステムが稼働しています**
+# [📈 現在の稼働状況](https://status.tokuzouserver.net): <!--live status--> **すべてのシステムが稼働しています**
 
 This repository contains the open-source uptime monitor and status page for [TokuzouServer](https://tokuzouserver.com/), powered by [Upptime](https://github.com/upptime/upptime).
 
