@@ -9,6 +9,8 @@ sites:
     check: "tcp-ping"
     url: doukoukai.tokuzouserver.net
     port: 25565
+  - name: TokuzouServerDocs
+    url: https://docs.tokuzouserver.net/
   - name: ochinchinippaiboy.com
     url: https://ochinchinippaiboy.com/
   - name: DuckDuckSu
