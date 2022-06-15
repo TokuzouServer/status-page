@@ -100,19 +100,19 @@
     "url": "https://img.tokuzouserver.net",
     "icon": "https://favicons.githubusercontent.com/img.tokuzouserver.net",
     "slug": "tokuzou-server-img",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 371,
-    "timeDay": 403,
-    "timeWeek": 371,
-    "timeMonth": 371,
-    "timeYear": 371,
+    "status": "up",
+    "uptime": "99.32%",
+    "uptimeDay": "99.12%",
+    "uptimeWeek": "99.32%",
+    "uptimeMonth": "99.32%",
+    "uptimeYear": "99.32%",
+    "time": 369,
+    "timeDay": 389,
+    "timeWeek": 369,
+    "timeMonth": 369,
+    "timeYear": 369,
     "dailyMinutesDown": {
-      "2022-06-15": 0
+      "2022-06-15": 13
     }
   }
 ]
